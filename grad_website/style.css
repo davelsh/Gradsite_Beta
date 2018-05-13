@@ -1,0 +1,130 @@
+
+
+body.grid{
+	background-image: <body style="background-color:#E6E6FA">;
+	background-size: cover;
+	display: grid;
+	grid: ' title '
+				' ll '
+				' img ';
+	grid-gap: 30%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #FFFFFF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+	font-family:'DIN 1451 fette Breitschrift 1936'
+
+	font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFFFFF;
+}
+@font-face {
+font-family: 'DIN 1451 fette Breitschrift 1936';
+font-style: normal;
+font-weight: normal;
+src: local('DIN 1451 fette Breitschrift 1936'), url('DIN1451-36breit.woff') format('woff');
+}
+
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+
+}
+p.title{
+	grid-area: 'title';
+	text-align: center;
+	font-family: Times New Roman;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+div.ll{
+	grid-area: 'll';
+	display: grid;
+	grid: ' llcol1 llcol2 llcol3 llcol4';
+	text-align: center;
+	font-family: Times New Roman;
+	font-weight: 100;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: none;
+}
+
+div.llcol1{
+	grid-area: llcol1;
+	display: grid;
+	grid: ' 1 '
+				' 2 '
+				' 3 '
+				' 4 '
+				' 5 ';
+}
+
+div.llcol2{
+	grid-area: llcol2;
+	display: grid;
+	grid: ' 1 '
+				' 2 '
+				' 3 '
+				' 4 '
+				' 5 ';
+}
+div.llcol3{
+	grid-area: llcol3;
+	display: grid;
+	grid: ' 1 '
+				' 2 '
+				' 3 '
+				' 4 '
+				' 5 ';
+}
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+		color: #000000;
+}
+
+
+img.img{
+	grid-area: img;
+	display: block;
+	width: 70%;
+}
