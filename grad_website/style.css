@@ -2,7 +2,10 @@
 	float: left;
 	color: black;
 }
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 .navbar {
     overflow: hidden;
@@ -110,6 +113,10 @@ body{
       margin: 100px 500px;
 }
 
+.wrapper {
+    width: 50%;
+    margin: 9.25% 26.04% auto;
+}
 .columns{
 -webkit-column-count: 2; /* Chrome, Safari, Opera */
 -moz-column-count: 2; /* Firefox */
