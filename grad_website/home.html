@@ -14,6 +14,25 @@
       body {
     font-family: 'Tinos', serif;
       }
+
+	  div {
+		  /* border: 1px solid black; */
+  		  margin: 100px 500px;
+	}
+
+	.columns{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+	-webkit-column-width: 300px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 300px;
+}
+
+ul {
+   list-style-position: inside;
+}
     </style>
 
 </head>
@@ -33,15 +52,21 @@
 	<!-- <li class="navbar-links"><a href="./about.html">about</a></li> -->
 </ul>
 </nav>
-<div align = "center">
+<div class="columns">
 
-<img src="IMG_1011.jpg" alt="Me" style="width:300px;height:300px;">
+<img src="IMG_1011.jpg" alt="Me" style="width:400px;height:400px;">
 
- <h2>Things I like to discuss</h2>
+ <h2>Who am I?</h2>
 <ul style="list-style-type:disc">
-  <li>Thing</li>
-  <li>Also a thing</li>
-  <li>more thing</li>
+  <li>NC State University Ph.D. Student</li>
+  <li>Cinephile</li>
+  <li>Aspiring Filmmaker & Photographer</li>
+</ul>
+
+<h2>My interests</h2>
+<ul style="list-style-type:disc">
+ <li>SAS and R programming</li>
+ <li>Data Science</li>
 </ul>
 </div>
 
